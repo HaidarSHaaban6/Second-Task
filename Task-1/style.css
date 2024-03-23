@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 40px;
+    transition-duration: 0.5s;
+}
+.navbar a:hover{
+    background-color: #fff;
+    color: gray;
+}
+.hero{
+    background-color: red;
+    color: #fff;
+    margin: 0px;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.hero p{
+    text-transform: capitalize;
+}
+.hero button{
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+}
+.parent{
+    height: 400px;
+    margin: 0px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent img{
+    width: 200px;
+}
+.parent h2{
+    text-transform: capitalize;
+    margin: 30px;
+}
+.parent #special,.parent-2 #special{
+    font-size: 20px;
+}
+.parent p{
+    margin: 30px;
+}
+.parent-2{
+    background-color: rgb(180, 176, 176);
+    height: 400px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 300px;
+    margin: 0;
+}
+.parent-2 img{
+    width: 200px;
+    margin-top: 30px;
+}
+.parent-2 .later{
+    margin-right: 200px;
+    margin-left: 70px;
+}
+.parent-2 h2{
+    text-transform: capitalize;
+}
+.about{
+    background-color: rgb(57, 52, 52);
+    color: #fff;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about p{
+    font-size: 20px;
+}
+footer{
+    color: rgb(57, 52, 52);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 30px;
+}
+footer img{
+    width: 20px;
+}
+.sparent .later p{
+    margin-right: 60px;
+}
+footer div p a{
+    text-decoration: none;
+    color: rgb(57, 52, 52);
+}

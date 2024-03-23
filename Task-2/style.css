@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar li{
+    display: inline-block;
+    width: 250px;
+}
+.navbar a{
+    display: block;
+    padding: 0 100px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 30px;
+    transition-duration: 0.5s;
+}
+.navbar a:hover{
+    background-color: #fff;
+    color: gray;
+}
+.div{
+    background-image: url(./assets/assets/img/coffeehouse.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.div h1{
+    padding: 0px;
+    margin: 70px 640px 30px 640px;
+}
+.div #h{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 170px;
+    margin: 0px;
+    font-size: 50px;
+}
+.div #j{
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    margin: 155px 20px 10px 20px
+}
+.div #k{
+    display: inline;
+    color: #fff;
+    margin: 20px 20px 20px 1180px;
+}
+.div #l{
+    margin-left: 620px;
+}
+#header2{
+    display: inline-flex;
+    background-color: black;
+    margin: 90px 650px 40px 650px;
+    padding: 0px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.parent #note{
+    background-color: rgb(197, 192, 192);
+    height: 80px;
+    width: 870px;
+    padding-left: 30px;
+    font-style: italic;
+    margin-bottom: 0px;
+    position: relative;
+}
+.parent #note::before{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    left: 0;
+    background: rgb(76, 75, 75);
+}
+.parent{
+    margin: 40px 310px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 450px; 
+}
+.one{
+    margin: 0px 310px;
+}
+#header3{
+    display: inline-flex;
+    background-color: black;
+    margin: 70px 650px;
+    padding: 0px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.nav2{
+    list-style: none;
+    margin: 0px 300px;
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.nav2 li{
+    display: inline-block;
+    width: 250px;
+}
+.nav2 a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    line-height: 30px;
+    transition-duration: 0.5s; 
+    padding-left: 100px;
+}
+.nav2 a:hover{
+    background-color: gray;
+    color: #fff;
+}
+.borderdiv{
+    border: black 1px solid;
+    margin: 5px 300px;
+    box-shadow: 2px 2px 2px gray;
+}
+.borderdiv div{
+    padding: 20px 10px;
+}
+#img3{
+    display: flex;
+    width: 920px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px; 
+}
+#header4{
+    display: inline-flex;
+    background-color: black;
+    margin: 80px 600px 40px 600px;
+    padding: 0px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+#img4{
+    display: flex;
+    width: 920px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px; 
+}
+.center{
+    margin: 0px 450px 0px 300px;
+}
+.center #back{
+    background-color: black;
+    color: #fff;
+    display: inline;
+}
+.input{
+    display: block;
+    margin: 20px 300px;
+    width: 920px;
+    height: 50px;
+}
+#button{
+    margin: 20px 300px;
+    display: block;
+    color: #fff;
+    background-color: black;
+    height: 40px;
+}
+#date{
+    display: block;
+    margin: 20px 300px;
+    width: 920px;
+    height: 50px;
+}
+.footer{
+    height: 80px;
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.inputt input:focus{
+    background-color: gray;
+}
